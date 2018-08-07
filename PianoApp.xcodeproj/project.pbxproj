@@ -9,19 +9,48 @@
 /* Begin PBXBuildFile section */
 		088C25502118CF840012FE23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C254F2118CF840012FE23 /* AppDelegate.swift */; };
 		088C25522118CF840012FE23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C25512118CF840012FE23 /* ViewController.swift */; };
-		088C25552118CF840012FE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088C25532118CF840012FE23 /* Main.storyboard */; };
 		088C25572118CF850012FE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088C25562118CF850012FE23 /* Assets.xcassets */; };
 		088C255A2118CF850012FE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088C25582118CF850012FE23 /* LaunchScreen.storyboard */; };
+		088C25622118D0340012FE23 /* PianoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C25612118D0340012FE23 /* PianoKey.swift */; };
+		088C25652118E3970012FE23 /* PianoKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C25642118E3970012FE23 /* PianoKeyView.swift */; };
+		08CA15BA2118F22200799833 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C25662118F1500012FE23 /* 1.wav */; };
+		08CA15BB2118F22200799833 /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C256D2118F1500012FE23 /* 5.wav */; };
+		08CA15BC2118F22200799833 /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C25672118F1500012FE23 /* 6.wav */; };
+		08CA15BD2118F22200799833 /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C25702118F1510012FE23 /* 7.wav */; };
+		08CA15BE2118F22200799833 /* 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C256C2118F1500012FE23 /* 9.wav */; };
+		08CA15BF2118F22200799833 /* 12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C25692118F1500012FE23 /* 12.wav */; };
+		08CA15C02118F22200799833 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C256B2118F1500012FE23 /* 3.wav */; };
+		08CA15C12118F22200799833 /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C256E2118F1500012FE23 /* 8.wav */; };
+		08CA15C22118F22200799833 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C256A2118F1500012FE23 /* 4.wav */; };
+		08CA15C32118F22200799833 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C256F2118F1500012FE23 /* 2.wav */; };
+		08CA15C42118F22200799833 /* 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 088C25682118F1500012FE23 /* 10.wav */; };
+		08CA15C62118F26E00799833 /* 11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08CA15C52118F26E00799833 /* 11.wav */; };
+		08CA15C82119060300799833 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA15C72119060300799833 /* NoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		088C254C2118CF840012FE23 /* PianoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088C254F2118CF840012FE23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		088C25512118CF840012FE23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		088C25542118CF840012FE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		088C25562118CF850012FE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		088C25592118CF850012FE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		088C255B2118CF850012FE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088C25612118D0340012FE23 /* PianoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKey.swift; sourceTree = "<group>"; };
+		088C25632118D2150012FE23 /* Play.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Play.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		088C25642118E3970012FE23 /* PianoKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKeyView.swift; sourceTree = "<group>"; };
+		088C25662118F1500012FE23 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		088C25672118F1500012FE23 /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
+		088C25682118F1500012FE23 /* 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10.wav; sourceTree = "<group>"; };
+		088C25692118F1500012FE23 /* 12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 12.wav; sourceTree = "<group>"; };
+		088C256A2118F1500012FE23 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		088C256B2118F1500012FE23 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		088C256C2118F1500012FE23 /* 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9.wav; sourceTree = "<group>"; };
+		088C256D2118F1500012FE23 /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
+		088C256E2118F1500012FE23 /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
+		088C256F2118F1500012FE23 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		088C25702118F1510012FE23 /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
+		08CA15C52118F26E00799833 /* 11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 11.wav; sourceTree = "<group>"; };
+		08CA15C72119060300799833 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +64,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085C65452118F16E0052C80F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				08CA15C52118F26E00799833 /* 11.wav */,
+				088C25662118F1500012FE23 /* 1.wav */,
+				088C256D2118F1500012FE23 /* 5.wav */,
+				088C25672118F1500012FE23 /* 6.wav */,
+				088C25702118F1510012FE23 /* 7.wav */,
+				088C256C2118F1500012FE23 /* 9.wav */,
+				088C25692118F1500012FE23 /* 12.wav */,
+				088C256B2118F1500012FE23 /* 3.wav */,
+				088C256E2118F1500012FE23 /* 8.wav */,
+				088C256A2118F1500012FE23 /* 4.wav */,
+				088C256F2118F1500012FE23 /* 2.wav */,
+				088C25682118F1500012FE23 /* 10.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		088C25432118CF840012FE23 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +102,13 @@
 		088C254E2118CF840012FE23 /* PianoApp */ = {
 			isa = PBXGroup;
 			children = (
+				085C65452118F16E0052C80F /* Sounds */,
 				088C254F2118CF840012FE23 /* AppDelegate.swift */,
 				088C25512118CF840012FE23 /* ViewController.swift */,
-				088C25532118CF840012FE23 /* Main.storyboard */,
+				08CA15C72119060300799833 /* NoteView.swift */,
+				088C25642118E3970012FE23 /* PianoKeyView.swift */,
+				088C25612118D0340012FE23 /* PianoKey.swift */,
+				088C25632118D2150012FE23 /* Play.playground */,
 				088C25562118CF850012FE23 /* Assets.xcassets */,
 				088C25582118CF850012FE23 /* LaunchScreen.storyboard */,
 				088C255B2118CF850012FE23 /* Info.plist */,
@@ -122,9 +174,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CA15C42118F22200799833 /* 10.wav in Resources */,
+				08CA15C22118F22200799833 /* 4.wav in Resources */,
+				08CA15BD2118F22200799833 /* 7.wav in Resources */,
+				08CA15C12118F22200799833 /* 8.wav in Resources */,
+				08CA15C32118F22200799833 /* 2.wav in Resources */,
+				08CA15BC2118F22200799833 /* 6.wav in Resources */,
+				08CA15BA2118F22200799833 /* 1.wav in Resources */,
 				088C255A2118CF850012FE23 /* LaunchScreen.storyboard in Resources */,
+				08CA15BE2118F22200799833 /* 9.wav in Resources */,
+				08CA15BF2118F22200799833 /* 12.wav in Resources */,
+				08CA15C62118F26E00799833 /* 11.wav in Resources */,
+				08CA15C02118F22200799833 /* 3.wav in Resources */,
+				08CA15BB2118F22200799833 /* 5.wav in Resources */,
 				088C25572118CF850012FE23 /* Assets.xcassets in Resources */,
-				088C25552118CF840012FE23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,21 +199,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				088C25522118CF840012FE23 /* ViewController.swift in Sources */,
+				08CA15C82119060300799833 /* NoteView.swift in Sources */,
 				088C25502118CF840012FE23 /* AppDelegate.swift in Sources */,
+				088C25652118E3970012FE23 /* PianoKeyView.swift in Sources */,
+				088C25622118D0340012FE23 /* PianoKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		088C25532118CF840012FE23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				088C25542118CF840012FE23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		088C25582118CF850012FE23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,7 +339,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6N6RHY8HX7;
 				INFOPLIST_FILE = PianoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +358,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6N6RHY8HX7;
 				INFOPLIST_FILE = PianoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

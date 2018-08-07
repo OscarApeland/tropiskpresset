@@ -26,7 +26,7 @@ class PianoKeyView: UIControl {
         layer.borderColor = UIColor.black.cgColor
         layer.borderWidth = 1.0
         layer.masksToBounds = true
-                
+        
         [.touchDown].forEach {
             addTarget(self, action: #selector(didTouchDown), for: $0)
         }
@@ -92,8 +92,10 @@ class PianoKeyView: UIControl {
         delegate?.didPress(pianoKey)
     }
     
+    var keyTintColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
+    
     @objc func didTouchDown(_: UIControl) {
-        backgroundColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
+        backgroundColor = keyTintColor
     }
 }
 
